@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Identificação da Admin</title></head>
+    <link rel="stylesheet" href="../static/logado.css">
+<body>
+    <h1>É tu mesmooooooo, wrew wrew wrewwwww</h1>
+    <p>{{msg}}</p>
+
+    <br><hr><br>
+    <div class="topo">
+        <form action="/adicionarpessoas" method="post">
+            <label>Informe quem você deseja adicionar:</label>
+            <input type="text" name="nome">
+            <button type="submit">Enviar</button>
+         </form>
+    </div>
+    <br><hr><br>
+    <div class="corpo">
+        <form action="/removerpessoas" method="post">
+            <label>Informe quem você deseja remover:</label>
+            <input type="text" name="nome">
+            <button type="submit">Enviar</button>
+         </form>
+    </div>
+</body>
+</html>

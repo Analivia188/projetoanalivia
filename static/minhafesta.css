@@ -1,0 +1,15 @@
+body{
+    background-color:lightcyan;
+}
+.principal{
+    background-color:pink;
+    text-align: center;
+    border: solid 2px black;
+    margin-bottom: 30px;
+}
+
+.segunda{
+    background-color:yellow;
+    text-align: center;
+    border: solid 2px black;
+}

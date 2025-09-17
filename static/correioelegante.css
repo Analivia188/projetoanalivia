@@ -1,0 +1,26 @@
+body{
+    background-color:black;
+}
+.one{
+
+    background-color:red;
+    text-align: center;
+    border: solid 2px white;
+    color: white;
+    margin-top: 70px;
+    margin-left: 600px;
+    margin-right: 600px;
+
+}
+.two{
+    text-align: center;
+    border: solid 2px black;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 40px;
+     margin-left: 600px;
+    margin-right: 600px;
+    border: solid 2px white;
+
+
+}
